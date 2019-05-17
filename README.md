@@ -32,8 +32,8 @@ All models are trained on COCO *train2017* set and evaluated on COCO *val2017* s
 | HRNetV2-W32 | 1x | 39.6 | [FasterR-CNN-HR32-1x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TchNk9JT8VlWkYcI)|
 | HRNetV2-W32 | 2x | 40.9 | [FasterR-CNN-HR32-2x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TbBZscXZo3DKSU74)|
 | HRNetV2-W40 | 1x | 40.4 | [FasterR-CNN-HR40-1x.pth](https://1drv.ms/u/s!AjfnYvdHLH5Tcfwfqrg_9Y8dbPM)|
-| HRNetV2-W40 | 2x | 40.4 | [FasterR-CNN-HR40-2x.pth](https://1drv.ms/u/s!AjfnYvdHLH5Tc4wM4S6SCZMbI8I)|
-| HRNetV2-W48 | 1x | 41.3 | [FasterR-CNN-HR48-2x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TbV9Wna7hJMI1Y8Q)|
+| HRNetV2-W40 | 2x | 41.4 | [FasterR-CNN-HR40-2x.pth](https://1drv.ms/u/s!AjfnYvdHLH5Tc4wM4S6SCZMbI8I)|
+| HRNetV2-W48 | 1x | 41.3 | [FasterR-CNN-HR48-1x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TbV9Wna7hJMI1Y8Q)|
 | HRNetV2-W48 | 2x | 41.8 | [FasterR-CNN-HR48-2x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TbpnJXuD_3jL-wsc)|
 
 
