@@ -5,7 +5,9 @@
 This is the official code of [High-Resolution Representations for Object Detection](https://arxiv.org/pdf/1904.04514.pdf). We extend the high-resolution representation (HRNet) [1] by augmenting the high-resolution representation by aggregating the (upsampled) representations from all the parallel convolutions, leading to stronger representations. We build a multi-level representation from the high resolution and apply it to the Faster R-CNN, Mask R-CNN and Cascade R-CNN framework. This proposed approach achieves superior results to existing single-model networks on COCO object detection. The code is based on [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
 
 <div align=center>
+
 ![](images/hrnetv2p.png)
+
 </div>
 
 
@@ -37,7 +39,7 @@ All models are trained on COCO *train2017* set and evaluated on COCO *val2017* s
 
 ### Faster R-CNN with more training iterations
 
-|Backbone|lr sched|mAP||model|
+|Backbone|lr sched|mAP|model|
 |:--:|:--:|:--:|:--:|
 | HRNetV2-W32 | 1x | 39.6 | [FasterR-CNN-HR32-1x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TchNk9JT8VlWkYcI)|
 | HRNetV2-W32 | 2x | 40.9 | [FasterR-CNN-HR32-2x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TbBZscXZo3DKSU74)|
