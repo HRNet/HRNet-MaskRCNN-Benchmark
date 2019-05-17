@@ -46,6 +46,8 @@ All models are trained on COCO *train2017* set and evaluated on COCO *val2017* s
 | HRNetV2-W32 | 3x | 41.4 | [FasterR-CNN-HR32-3x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TeLUahrIPnA60fr8)|
 | HRNetV2-W32 | 4x | 41.6 | [FasterR-CNN-HR32-4x.pth](https://1drv.ms/u/s!AjfnYvdHLH5TeLUahrIPnA60fr8)|
 
+Our HRNets will obtain larger gain when training with more iterations. 
+
 ## Quick start
 
 #### Install
