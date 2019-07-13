@@ -100,6 +100,7 @@ _C.MODEL.NECK.OUT_CHANNELS = 256
 _C.MODEL.NECK.ACTIVATION = False
 _C.MODEL.NECK.POOLING = ' AVG'
 _C.MODEL.NECK.SHARING_CONV = False
+_C.MODEL.NECK.NUM_OUTS = 5
 
 # ---------------------------------------------------------------------------- #
 # RPN options
