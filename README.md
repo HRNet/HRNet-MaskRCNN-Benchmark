@@ -68,6 +68,7 @@ git clone https://github.com/cocodataset/cocoapi.git \
 git clone https://github.com/HRNet/HRNet-MaskRCNN-Benchmark.git
 cd HRNet-MaskRCNN-Benchmark
 python setup.py build develop
+pip install -r requirements.txt
 ````
 
 for more details, see [INSTALL.md](INSTALL.md)
