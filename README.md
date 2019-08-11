@@ -68,7 +68,6 @@ git clone https://github.com/cocodataset/cocoapi.git \
 git clone https://github.com/HRNet/HRNet-MaskRCNN-Benchmark.git
 cd HRNet-MaskRCNN-Benchmark
 python setup.py build develop
-pip install -r requirements.txt
 ````
 
 for more details, see [INSTALL.md](INSTALL.md)
@@ -85,20 +84,20 @@ mkdir hrnetv2_pretrained
 #### Train (multi-gpu training)
 Please specify the configuration file in `configs` (learning rate should be adjusted when the number of GPUs is changed).
 ````bash
-python -m torch.distributed.launch --nproc_per_node <GPU NUMS> toots/train_net.py --config-file <CONFIG FILE>
+python -m torch.distributed.launch --nproc_per_node <GPU NUMS> tools/train_net.py --config-file <CONFIG FILE>
 
 # example (4 gpus)
-python -m torch.distributed.launch --nproc_per_node 4 toots/train_net.py --config-file configs/hrnet/e2e_faster_rcnn_hrnet_w18_1x.yaml
+python -m torch.distributed.launch --nproc_per_node 4 tools/train_net.py --config-file configs/hrnet/e2e_faster_rcnn_hrnet_w18_1x.yaml
 
 ````
 
 #### Test
 
 ````bash
-python -m torch.distributed.launch --nproc_per_node <GPU NUMS> toots/test_net.py --config-file <CONFIG-FILE> MODEL.WEIGHT <WEIGHT>
+python -m torch.distributed.launch --nproc_per_node <GPU NUMS> tools/test_net.py --config-file <CONFIG-FILE> MODEL.WEIGHT <WEIGHT>
 
 #example (4gpus)
-python -m torch.distributed.launch --nproc_per_node 4 toots/test_net.py --config-file configs/hrnet/e2e_faster_rcnn_hrnet_w18_1x.yaml MODEL.WEIGHT FasterR-CNN-HR18-1x.pth
+python -m torch.distributed.launch --nproc_per_node 4 tools/test_net.py --config-file configs/hrnet/e2e_faster_rcnn_hrnet_w18_1x.yaml MODEL.WEIGHT FasterR-CNN-HR18-1x.pth
 
 ````
 
